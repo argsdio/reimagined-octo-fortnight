@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="'en">
+<head> 
+    <title>Create Blog Post</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        form { display: flex; flex-direction: column; width: 300px; gap: 10px; }
+        input, textarea, button { padding: 10px; font-size: 16px; }
+    </style>
+</head>   
+<body>
+    <h2>New Blog Post</h2>
+    <form id="postForm">
+        <input type="text" id="date" placeholder="Date (MM/DD/YYYY)" required>
+        <input type="text" id="title" placeholder="Title" required>
+        <textarea id="text" placeholder="Post Text..." required></textarea>
+        <input type="text" id="author" placeholder="Author Name" required>
+        <button type="submit">Post</button>
+    </form>
+    <p id="message"></p>
+
+    <script src="form.js"></script>
+</body>
+
+</html>
