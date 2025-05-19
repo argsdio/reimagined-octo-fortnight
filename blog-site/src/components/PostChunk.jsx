@@ -1,6 +1,6 @@
 import '../styles.css'
 
-function PostChunk({title, body, date, name}) {
+function PostChunk({date, author, title, body}) {
 
     return (
         <>
@@ -9,6 +9,7 @@ function PostChunk({title, body, date, name}) {
                 <h2 className="postTitle">{title}</h2>
                 <h3 className="userName">{name}</h3>
                 <p className="date">{date}</p>
+                <p className="author">{author}</p>
             </div>
             <div>
                 

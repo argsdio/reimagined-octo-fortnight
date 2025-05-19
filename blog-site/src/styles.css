@@ -12,11 +12,21 @@
     border-width: 4px;
     border-radius: 10px;
     padding: 10px 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .date, .userName {
     margin-left: 12px;
     font-size: 14px;
+}
+
+.author {
+    background-color: rgb(239, 232, 232);
+    padding: 4px 6px;
+    margin-left: 12px;
+
+    font-size: x-small;
 }
 
 .postTitle {
